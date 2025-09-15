@@ -50,7 +50,7 @@ My analysis focused on answering critical business questions that directly impac
 
 ### 1. Campaign Effectiveness Analysis
 **Question**: Which campaign types generate the highest ROI?
-	![alt text](/campaighn%20vs%20coversion.png)
+	![alt text](/Resources/campaighn%20vs%20coversion.png)
 
 **Findings**: 
 - **Influencer campaigns** lead with 0.00000642 conversions per dollar spent
@@ -61,7 +61,7 @@ My analysis focused on answering critical business questions that directly impac
 
 ### 2. Customer Acquisition Cost Optimization
 **Question**: What's the most cost-effective channel for customer acquisition?
-	![alt text](/first.png)
+	![alt text](/Resources/first.png)
 
 **Findings**:
 - **YouTube**: $12,481 average acquisition cost (most efficient)
@@ -72,7 +72,7 @@ My analysis focused on answering critical business questions that directly impac
 
 ### 3. Customer Segment Performance
 **Question**: Which customer segments show the highest engagement and conversion potential?
-	![alt text](/segment%20vs%20score.png)
+	![alt text](/Resources/segment%20vs%20score.png)
 
 **Findings**:
 - **Foodies**: 221,605 engagement score with strong conversion rates
@@ -83,7 +83,7 @@ My analysis focused on answering critical business questions that directly impac
 
 ### 4. Geographic Performance Analysis
 **Question**: Which markets deliver the best marketing performance?
-	![alt text](/regional%20effectiveness.png)
+	![alt text](/Resources/regional%20effectiveness.png)
 
 **Findings**:
 - **Miami**: 3,223 conversions per dollar (top performer)
@@ -94,7 +94,7 @@ My analysis focused on answering critical business questions that directly impac
 
 ### 5. Campaign Duration Optimization
 **Question**: What's the optimal campaign length for maximum efficiency?
-	![alt text](/duration.png)
+	![alt text](/Resources/duration.png)
 
 **Findings**:
 - **30-day campaigns**: 0.000006419 conversions per dollar (optimal)
