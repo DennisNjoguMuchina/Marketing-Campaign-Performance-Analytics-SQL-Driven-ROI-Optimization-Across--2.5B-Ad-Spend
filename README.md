@@ -1,5 +1,7 @@
 # Marketing Campaign Performance Analytics SQL Project
 
+![Business Intelligence Dashboard](https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2015&q=80)
+
 ## Introduction
 
 As a data analyst passionate about driving marketing success through actionable insights, I developed this comprehensive SQL project to analyze multi-million dollar marketing campaign performance across multiple channels and customer segments. This project demonstrates my ability to transform complex marketing data into strategic business recommendations that directly impact ROI and customer acquisition strategies.
@@ -50,7 +52,14 @@ My analysis focused on answering critical business questions that directly impac
 
 ### 1. Campaign Effectiveness Analysis
 **Question**: Which campaign types generate the highest ROI?
-	![alt text](/Resources/campaighn%20vs%20coversion.png)
+	
+| Campaign Type | Conversions per Dollar | Total Spend | ROI Ranking |
+|---------------|----------------------|-------------|-------------|
+| **Influencer** | 0.000006421 | $502.4M | 🥇 1 |
+| **Social Media** | 0.000006404 | $498.2M | 🥈 2 |
+| **Display** | 0.000006403 | $500.2M | 🥉 3 |
+| **Search** | 0.000006402 | $501.9M | 4 |
+| **Email** | 0.000006385 | $498.2M | 5 |
 
 **Findings**: 
 - **Influencer campaigns** lead with 0.00000642 conversions per dollar spent
@@ -61,7 +70,16 @@ My analysis focused on answering critical business questions that directly impac
 
 ### 2. Customer Acquisition Cost Optimization
 **Question**: What's the most cost-effective channel for customer acquisition?
-	![alt text](/Resources/first.png)
+
+| Channel      | CAC (Cost Per Customer) | Efficiency Ranking |
+|--------------|------------------------|-------------------|
+| **YouTube**  | $12,481.39             | 🎯 Most Efficient |
+| **Website**  | $12,487.81             | Very Efficient    |
+| **Instagram**| $12,491.76             | Efficient         |
+| **Facebook** | $12,510.90             | Above Average     |
+| **Email**    | $12,526.39             | Below Average     |
+| **Google Ads**| $12,528.03            | 🔴 Least Efficient |
+
 
 **Findings**:
 - **YouTube**: $12,481 average acquisition cost (most efficient)
@@ -72,7 +90,15 @@ My analysis focused on answering critical business questions that directly impac
 
 ### 3. Customer Segment Performance
 **Question**: Which customer segments show the highest engagement and conversion potential?
-	![alt text](/Resources/segment%20vs%20score.png)
+
+| Customer Segment | Engagement Score | ROI Multiple | Impressions | Recommendation |
+|------------------|------------------|--------------|-------------|----------------|
+| **Foodies** | 221,605 | 5.004x | 220.8M | 🌟 High Priority |
+| **Tech Enthusiasts** | 220,235 | 5.004x | 220.4M | 🌟 High Priority |
+| **Outdoor Adventurers** | 220,170 | 4.999x | 220.5M | Medium Priority |
+| **Health & Wellness** | 218,752 | 5.003x | 220.5M | Medium Priority |
+| **Fashionistas** | 218,180 | 5.001x | 219.3M | Standard Priority |
+
 
 **Findings**:
 - **Foodies**: 221,605 engagement score with strong conversion rates
@@ -83,7 +109,14 @@ My analysis focused on answering critical business questions that directly impac
 
 ### 4. Geographic Performance Analysis
 **Question**: Which markets deliver the best marketing performance?
-	![alt text](/Resources/regional%20effectiveness.png)
+
+| Location | Conversions per Dollar | Impressions | Market Ranking |
+|----------|----------------------|-------------|----------------|
+| **Miami** | 3,223.43 | 221.3M | 🏆 Top Performer |
+| **New York** | 3,210.09 | 221.4M | Strong Performer |
+| **Chicago** | 3,206.18 | 220.0M | Above Average |
+| **Los Angeles** | 3,196.28 | 219.7M | Average |
+| **Houston** | 3,177.95 | 219.1M | Below Average |
 
 **Findings**:
 - **Miami**: 3,223 conversions per dollar (top performer)
@@ -94,7 +127,13 @@ My analysis focused on answering critical business questions that directly impac
 
 ### 5. Campaign Duration Optimization
 **Question**: What's the optimal campaign length for maximum efficiency?
-	![alt text](/Resources/duration.png)
+
+| Campaign Duration | Conversions per Dollar | Total Clicks | Performance Grade |
+|-------------------|----------------------|--------------|-------------------|
+| **30 Days** | 0.000006419 | 27.7M | 🎯 **OPTIMAL** |
+| **15 Days** | 0.000006404 | 27.4M | Good |
+| **60 Days** | 0.000006396 | 27.4M | Diminishing Returns |
+| **45 Days** | 0.000006394 | 27.5M | Below Optimal |
 
 **Findings**:
 - **30-day campaigns**: 0.000006419 conversions per dollar (optimal)
@@ -102,6 +141,34 @@ My analysis focused on answering critical business questions that directly impac
 - **60-day campaigns**: 0.000006396 conversions per dollar (diminishing returns)
 
 **Operational Insight**: 30-day campaigns hit the sweet spot between reach and efficiency.
+
+## 💵 Campaign Spend Distribution Analysis
+*$2.5B marketing budget allocation*
+
+| Campaign Type | Total Spend | Budget % | Spend Efficiency |
+|---------------|-------------|----------|------------------|
+| **Influencer** | $502.4M | 20.1% | Best ROI |
+| **Search** | $501.9M | 20.0% | Balanced |
+| **Display** | $500.2M | 19.9% | Strong Performance |
+| **Email** | $498.2M | 19.8% | Needs Optimization |
+| **Social Media** | $498.2M | 19.8% | High Potential |
+
+**💡 Key Insight:** Budget is evenly distributed (19.8-20.1%), allowing fair performance comparison. Consider reallocating from Email to top-performing Influencer campaigns.
+
+---
+
+## 🔍 Demographic Performance Breakdown
+*Conversion rates by age and gender segments*
+
+| Age Group | Gender | Avg Conversion Rate | Conversions per Dollar | Target Priority |
+|-----------|--------|-------------------|----------------------|-----------------|
+| **18-24** | Men | 8.02% | 0.000006407 | High Value |
+| **25-34** | Men | 8.01% | 0.000006420 | 🎯 **Highest Value** |
+| **35-44** | Women | 8.01% | 0.000006400 | High Value |
+| **25-34** | Women | 7.99% | 0.000006392 | Standard |
+
+**💡 Key Insight:** 25-34 Men deliver highest conversions per dollar while maintaining strong 8.01% conversion rate. Prime target for premium campaign allocation.
+
 
 ## What I Learned
 
